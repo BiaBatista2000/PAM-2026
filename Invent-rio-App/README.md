@@ -24,7 +24,7 @@
 |------------------|--------------------------|-------------------------|
 | <img src="IMG/Relatorios.jpeg" width="200px"> | <img src="IMG/Movimentacao.jpeg" width="200px"> | <img src="IMG/Itens.jpeg" width="200px"> |
 
-| Tela Detalhes dos Itens | Tela de Notificações | 
+| Tela Detalhes dos Itens | Tela de Notificação | 
 |------------------|--------------------------|
 | <img src="IMG/ItensDetalhe.jpeg" width="200px"> | <img src="IMG/Notificacao.jpeg" width="200px"> |
 
