@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/historia_industrial"
+            android:scaleType="centerCrop"
+            android:contentDescription="História da Revolução Industrial" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HISTÓRIA"
+            android:textColor="#D4AF37"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Revolução Industrial foi um período de grandes transformações econômicas, sociais e tecnológicas."
+            android:textColor="#EEEEEE"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ela começou na Inglaterra durante o século XVIII e foi marcada pela substituição gradual do trabalho artesanal pela produção mecanizada."
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O crescimento das fábricas, o desenvolvimento das máquinas a vapor e o avanço dos transportes modificaram profundamente a sociedade."
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/btnVoltarHistoria"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="VOLTAR"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#8B1E1E" />
+
+    </LinearLayout>
+
+</ScrollView>

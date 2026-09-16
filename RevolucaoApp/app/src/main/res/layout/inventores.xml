@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INVENTORES"
+            android:textColor="#D4AF37"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conheça algumas pessoas que contribuíram para o desenvolvimento industrial."
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/james_watt"
+            android:scaleType="centerCrop"
+            android:contentDescription="James Watt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JAMES WATT"
+            android:textColor="#D4AF37"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James Watt aperfeiçoou a máquina a vapor, contribuindo para sua utilização em diferentes atividades industriais."
+            android:textColor="#CCCCCC"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="22dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/james_hargreaves"
+            android:scaleType="centerCrop"
+            android:contentDescription="James Hargreaves" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JAMES HARGREAVES"
+            android:textColor="#D4AF37"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James Hargreaves é associado à Spinning Jenny, uma máquina que aumentou a capacidade de produção de fios na indústria têxtil."
+            android:textColor="#CCCCCC"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="22dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/richard_arkwright"
+            android:scaleType="centerCrop"
+            android:contentDescription="Richard Arkwright" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RICHARD ARKWRIGHT"
+            android:textColor="#D4AF37"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Richard Arkwright teve papel importante no desenvolvimento da indústria têxtil mecanizada e na organização do sistema fabril."
+            android:textColor="#CCCCCC"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/btnVoltarInventores"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="VOLTAR"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#8B1E1E" />
+
+    </LinearLayout>
+
+</ScrollView>

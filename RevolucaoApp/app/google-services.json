@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1019544972748",
+    "project_id": "revolucaoapp",
+    "storage_bucket": "revolucaoapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019544972748:android:d634df98d20f65a574c169",
+        "android_client_info": {
+          "package_name": "com.example.revolucaoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe7_0npIahpnhxuoFCdC0V3HBaUMnOhC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
