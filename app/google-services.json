@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "591289316310",
+    "project_id": "feiraapp-5b4d6",
+    "storage_bucket": "feiraapp-5b4d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591289316310:android:a1a17c7a26d3251107aa77",
+        "android_client_info": {
+          "package_name": "com.example.FeiraApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0CK9kwNXDPVH3YLhnkkIZ0DEYSweR62s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591289316310:android:ab46d087ef9f507b07aa77",
+        "android_client_info": {
+          "package_name": "com.example.feiraapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0CK9kwNXDPVH3YLhnkkIZ0DEYSweR62s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
